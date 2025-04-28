@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #f5f0e6;
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    background-repeat: repeat;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4b3a28;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #3d2b1f;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px #d2b48c;
+  }
+  
+  form {
+    background-color: #fff8f0;
+    border: 5px double #7b5e41; /* Borda rústica e grossa */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgba(60, 40, 20, 0.4);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+    color: #5b4636;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid #a1866f;
+    background-color: #fefcf9;
+    font-family: 'Georgia', serif;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    background-color: #7b5e41;
+    color: #fff5e6;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: 'Georgia', serif;
+  }
+  
+  button:hover {
+    background-color: #5c4432;
+  }
+  
+  #results {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e2e2e; /* texto escuro */
+    background-color: #000001; /* azul claro e leve */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #81d4fa; /* azul mais intenso */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    white-space: pre-line;
+  }
